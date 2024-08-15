@@ -1,4 +1,9 @@
-
+import Facebook from "../assets/icon-facebook.svg"
+import Twitter from "../assets/icon-twitter.svg"
+import Instagram from "../assets/icon-instagram.svg"
+import Up from "../assets/icon-up.svg"
+import Youtube from "../assets/icon-youtube.svg"
+import Down from "../assets/icon-down.svg"
 
 const Header = () => {
   
@@ -20,28 +25,28 @@ const Header = () => {
     </div>
     <div class="cards">
       <div class="card card1">
-        <h5><i class="ri-facebook-box-fill"></i>@nathanf</h5>
+        <h3><img src={Facebook}/>@nathanf</h3>
         <h1>1987</h1>
         <h4>FOLLOWERS</h4>
-        <h1 class="Today">-12 Today</h1>
+        <h6 class="Today"><img src={Up}/>-12 Today</h6>
       </div>
       <div class="card card1">
-        <h5><i class="ri-twitter-fill"></i>@nathanf</h5>
+        <h3><img src={Twitter}/>@nathanf</h3>
         <h1>1044</h1>
         <h4>FOLLOWERS</h4>
-        <h1 class="Today">-12 Today</h1>
+        <h6 class="Today"><img src={Up}/>-12 Today</h6>
       </div>
       <div class="card card3">
-        <h5><i class="ri-instagram-line"></i>@realnathanf</h5>
+        <h3><img src={Instagram}/>@realnathanf</h3>
         <h1>11k</h1>
         <h4>FOLLOWERS</h4>
-        <h1 class="Today">-12 Today</h1>
+        <h6 class="Today"><img src={Up}/>-12 Today</h6>
       </div>
       <div class="card card4">
-        <h5><i class="ri-youtube-fill"></i>@nathanf</h5>
+        <h3><img src={Youtube}/>@nathanf</h3>
         <h1>8239</h1>
         <h4>SUBSCRIBERS</h4>
-        <h1 class="today">-12 Today</h1>
+        <h6 class="today"><img src={Down}/>-12 Today</h6>
       </div>
     </div>
 

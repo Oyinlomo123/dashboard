@@ -20,7 +20,7 @@
 body{
   background: var(--primary-color);
   color: var(--third-color);
-  padding:2rem 10rem;
+  padding:2rem ;
 }
 
 .nav{
@@ -95,8 +95,9 @@ span{
   color: rgb(0, 110, 255);
 }
 .card h1{
-  font-size: 1rem;
+  font-size: 3rem;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .card h4{
   font-weight: 500;
@@ -155,12 +156,20 @@ span{
 .page-view h5{
   font-weight: 800;
 }
-.page-view i{
+.page-view img{
   float: right;
 }
 .page-view h1{
   font-size: 36px;
   font-weight: 900;
+}
+.page-view h1 span{
+  padding-top: 10px;
+  text-align: center;
+}
+.page-view h1 span img{
+  float: left;
+  padding-top: 8px;
 }
 .per{
   float: right;
@@ -202,6 +211,13 @@ display: block;
   color:  var(--third-color);
   margin-bottom: 20px;
 }
+
+.card h1{
+  padding: 2rem 0px;
+}
+.card h4{
+  font-size: 18px;
+}
 .page-card{
   display: flex;
   flex-direction: column;
@@ -211,6 +227,9 @@ display: block;
 .page-view{
   width: 100%;
   height: 100%;
+}
+.page-view h5{
+  padding: 1rem 0px;
 }
 }
 @media screen and (min-width:578px) and (max-width:768px){
