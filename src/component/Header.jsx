@@ -1,14 +1,20 @@
 
-const Header = () => {
-  return (
 
+const Header = () => {
+  
+    function ChangeMode (){
+      document.body.classList.toggle("dark-theme")
+    }
+  return (
+      
     <div>
        <div class="dashboard">
     <div class="nav">
       <h2>Social&nbsp;Media&nbsp;Dashboard <br/><span>Total followers: 23,004</span></h2><hr/>
-      <h4>Dark&nbsp;Mode <div id="click" class="container">
-          <input type="checkbox" id="check"/>
+      <h4>Dark&nbsp;Mode <div id="click" class="container" >
+          <input type="checkbox" id="check"onClick={ChangeMode} />
           <label for="check" class="button"></label>
+          
         </div>
       </h4>
     </div>
@@ -42,7 +48,7 @@ const Header = () => {
     
   </div>
     </div>
-
+ 
   )
 }
 
